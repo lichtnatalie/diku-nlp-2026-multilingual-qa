@@ -1,0 +1,11 @@
+model,pair_id,lang,answerable_correct,unanswerable_correct,both_answerability_correct,answerable_em,unanswerable_em,both_exact,answerable_prediction,unanswerable_prediction
+integrated QA,01-apollo,ar,True,False,False,1.0,0.0,False,"July 16, 1969","July 16, 1969"
+integrated QA,02-mercury,ar,True,False,False,1.0,0.0,False,Mercury,Mercury
+integrated QA,03-nobel-first,ko,True,False,False,1.0,0.0,False,Wilhelm Conrad Röntgen,Wilhelm Conrad Röntgen
+integrated QA,04-nobel-field,ko,True,False,False,1.0,0.0,False,Marie Curie,Marie Curie
+integrated QA,05-hubble,te,True,False,False,1.0,0.0,False,1990.,1990.
+language thresholds,01-apollo,ar,True,False,False,1.0,0.0,False,"July 16, 1969","July 16, 1969"
+language thresholds,02-mercury,ar,True,False,False,1.0,0.0,False,Mercury,Mercury
+language thresholds,03-nobel-first,ko,True,False,False,1.0,0.0,False,Wilhelm Conrad Röntgen,Wilhelm Conrad Röntgen
+language thresholds,04-nobel-field,ko,True,False,False,1.0,0.0,False,Marie Curie,Marie Curie
+language thresholds,05-hubble,te,True,False,False,1.0,0.0,False,1990.,1990.

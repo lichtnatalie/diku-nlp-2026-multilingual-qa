@@ -1,0 +1,42 @@
+| model                | example_id        | question                                                | tokens                                             |   n_words |   n_unk |   perplexity | end     |
+|:---------------------|:------------------|:--------------------------------------------------------|:---------------------------------------------------|----------:|--------:|-------------:|:--------|
+| unigram              | validation-001602 | متى بنيت الكنيسة القبطية الأرثوذكسية  المشرقية؟         | متي <unk> <unk> <unk> <unk> <unk>                  |         6 |       5 |       7.3212 | lowest  |
+| unigram              | validation-002213 | متى أطيح بالرئيس السوداني البشير؟                       | متي <unk> <unk> <unk> <unk>                        |         5 |       4 |       7.6974 | lowest  |
+| unigram              | validation-001452 | متى شهد ظهور أنونيموس؟                                  | متي <unk> <unk> <unk>                              |         4 |       3 |       8.2567 | lowest  |
+| unigram              | validation-001896 | هل تنتج شجرة السماء ثماراً ؟                            | هل <unk> <unk> <unk> <unk>                         |         5 |       4 |       8.4382 | lowest  |
+| unigram              | validation-002190 | هل الميلانوما مؤلمة ؟                                   | هل <unk> <unk>                                     |         3 |       2 |      10.5283 | lowest  |
+| unigram              | validation-001615 | من تولى رئاسة العراق بعد الاستقلال ؟                    | من تولي رئاسة العراق بعد الاستقلال                 |         6 |       0 |     472.4353 | highest |
+| unigram              | validation-002133 | من هو والي مصر في عهد الخليفة علي بن أبي طالب؟          | من هو والي مصر في عهد الخليفة علي بن ابي طالب      |        11 |       0 |     489.1610 | highest |
+| unigram              | validation-001636 | متى وصل الاسلام إلى قارة أمريكا الشمالية؟               | متي وصل الاسلام الي قارة امريكا الشمالية           |         7 |       0 |     515.7928 | highest |
+| unigram              | validation-001651 | من كتب القرآن الكريم؟                                   | من كتب القران الكريم                               |         4 |       0 |     516.7438 | highest |
+| unigram              | validation-001555 | ما اسم رئيس الوزراء البريطاني لعام 2017 ؟               | ما اسم رئيس الوزراء البريطاني لعام 2017            |         7 |       0 |     547.1516 | highest |
+| add-k bigram         | validation-001484 | ما هي الرقصة الشركسية؟                                  | ما هي <unk> <unk>                                  |         4 |       2 |       4.0266 | lowest  |
+| add-k bigram         | validation-001957 | ما هي الفلسفة التشاؤمية؟                                | ما هي <unk> <unk>                                  |         4 |       2 |       4.0266 | lowest  |
+| add-k bigram         | validation-001443 | من هو كلاشنكوف ؟                                        | من هو <unk>                                        |         3 |       1 |       4.2430 | lowest  |
+| add-k bigram         | validation-001896 | هل تنتج شجرة السماء ثماراً ؟                            | هل <unk> <unk> <unk> <unk>                         |         5 |       4 |       4.2589 | lowest  |
+| add-k bigram         | validation-001602 | متى بنيت الكنيسة القبطية الأرثوذكسية  المشرقية؟         | متي <unk> <unk> <unk> <unk> <unk>                  |         6 |       5 |       4.3564 | lowest  |
+| add-k bigram         | validation-001970 | كيف يستحق أي نوع من العلم أن يسمى علماً ؟               | كيف <unk> اي نوع من العلم ان يسمي <unk>            |         9 |       2 |     333.2438 | highest |
+| add-k bigram         | validation-001615 | من تولى رئاسة العراق بعد الاستقلال ؟                    | من تولي رئاسة العراق بعد الاستقلال                 |         6 |       0 |     349.4474 | highest |
+| add-k bigram         | validation-001941 | هل بؤدي نقص فيتامين بي 12 الى التهاب الاطراف؟           | هل <unk> نقص فيتامين بي <unk> الي التهاب الاطراف   |         9 |       2 |     374.5501 | highest |
+| add-k bigram         | validation-002161 | من وعد اليهود بأرض  فلسطين؟                             | من وعد اليهود <unk> فلسطين                         |         5 |       1 |     549.8007 | highest |
+| add-k bigram         | validation-002086 | كم سنة ميلادية عاش السيد المسيح؟                        | كم سنة <unk> عاش السيد المسيح                      |         6 |       1 |     791.2694 | highest |
+| interpolated bigram  | validation-001484 | ما هي الرقصة الشركسية؟                                  | ما هي <unk> <unk>                                  |         4 |       2 |       4.5450 | lowest  |
+| interpolated bigram  | validation-001957 | ما هي الفلسفة التشاؤمية؟                                | ما هي <unk> <unk>                                  |         4 |       2 |       4.5450 | lowest  |
+| interpolated bigram  | validation-002203 | ما هي الشركة المنتجة لسلسلة المانغا جولة الربيع الأزرق؟ | ما هي الشركة المنتجة <unk> <unk> <unk> <unk> <unk> |         9 |       5 |       4.6435 | lowest  |
+| interpolated bigram  | validation-001602 | متى بنيت الكنيسة القبطية الأرثوذكسية  المشرقية؟         | متي <unk> <unk> <unk> <unk> <unk>                  |         6 |       5 |       4.6811 | lowest  |
+| interpolated bigram  | validation-001896 | هل تنتج شجرة السماء ثماراً ؟                            | هل <unk> <unk> <unk> <unk>                         |         5 |       4 |       4.7470 | lowest  |
+| interpolated bigram  | validation-001915 | ما نوع صوت أم كلثوم؟                                    | ما نوع صوت ام <unk>                                |         5 |       1 |     266.7062 | highest |
+| interpolated bigram  | validation-001555 | ما اسم رئيس الوزراء البريطاني لعام 2017 ؟               | ما اسم رئيس الوزراء البريطاني لعام 2017            |         7 |       0 |     275.4197 | highest |
+| interpolated bigram  | validation-001615 | من تولى رئاسة العراق بعد الاستقلال ؟                    | من تولي رئاسة العراق بعد الاستقلال                 |         6 |       0 |     301.8078 | highest |
+| interpolated bigram  | validation-002086 | كم سنة ميلادية عاش السيد المسيح؟                        | كم سنة <unk> عاش السيد المسيح                      |         6 |       1 |     402.1279 | highest |
+| interpolated bigram  | validation-001941 | هل بؤدي نقص فيتامين بي 12 الى التهاب الاطراف؟           | هل <unk> نقص فيتامين بي <unk> الي التهاب الاطراف   |         9 |       2 |     462.2598 | highest |
+| interpolated trigram | validation-001484 | ما هي الرقصة الشركسية؟                                  | ما هي <unk> <unk>                                  |         4 |       2 |       4.2808 | lowest  |
+| interpolated trigram | validation-001957 | ما هي الفلسفة التشاؤمية؟                                | ما هي <unk> <unk>                                  |         4 |       2 |       4.2808 | lowest  |
+| interpolated trigram | validation-002189 | ما هي اكبر مدن مالطا؟                                   | ما هي اكبر مدن <unk>                               |         5 |       1 |       4.4109 | lowest  |
+| interpolated trigram | validation-001980 | ما هي اكبر مدن أوزبكستان؟                               | ما هي اكبر مدن <unk>                               |         5 |       1 |       4.4109 | lowest  |
+| interpolated trigram | validation-001896 | هل تنتج شجرة السماء ثماراً ؟                            | هل <unk> <unk> <unk> <unk>                         |         5 |       4 |       4.5547 | lowest  |
+| interpolated trigram | validation-001970 | كيف يستحق أي نوع من العلم أن يسمى علماً ؟               | كيف <unk> اي نوع من العلم ان يسمي <unk>            |         9 |       2 |     255.2066 | highest |
+| interpolated trigram | validation-001615 | من تولى رئاسة العراق بعد الاستقلال ؟                    | من تولي رئاسة العراق بعد الاستقلال                 |         6 |       0 |     260.1537 | highest |
+| interpolated trigram | validation-001555 | ما اسم رئيس الوزراء البريطاني لعام 2017 ؟               | ما اسم رئيس الوزراء البريطاني لعام 2017            |         7 |       0 |     265.9520 | highest |
+| interpolated trigram | validation-002086 | كم سنة ميلادية عاش السيد المسيح؟                        | كم سنة <unk> عاش السيد المسيح                      |         6 |       1 |     377.2007 | highest |
+| interpolated trigram | validation-001941 | هل بؤدي نقص فيتامين بي 12 الى التهاب الاطراف؟           | هل <unk> نقص فيتامين بي <unk> الي التهاب الاطراف   |         9 |       2 |     447.4040 | highest |

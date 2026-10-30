@@ -1,0 +1,38 @@
+{
+  "python": "3.10.12",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "sklearn": "1.7.2",
+    "scipy": "1.15.3",
+    "datasets": "not installed",
+    "pyarrow": "25.0.1"
+  },
+  "hardware": {
+    "machine": "x86_64",
+    "processor": "x86_64",
+    "cpu": "Intel(R) Core(TM) i5-8259U CPU @ 2.30GHz",
+    "memory_gb": 3.8,
+    "cores": 4
+  },
+  "seed": 20260901,
+  "seeds": [
+    20260901,
+    20260902,
+    20260903,
+    20260904,
+    20260905
+  ],
+  "labeller": {
+    "fit_seconds": 78.7,
+    "n_train_examples": 6335,
+    "n_train_tokens": 750562,
+    "epochs": 30,
+    "note": "one fit; the seed sweep repeats it once per seed"
+  },
+  "language_models": {
+    "fit_seconds_all_five": 0.231,
+    "n_train_questions": 2558
+  }
+}

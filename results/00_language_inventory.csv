@@ -1,0 +1,16 @@
+split,lang,n,in_project_scope
+test,en,4,False
+train,ar,2558,True
+train,bn,2598,False
+train,fi,2126,False
+train,ja,2301,False
+train,ko,2422,True
+train,ru,1983,False
+train,te,1355,True
+validation,ar,415,True
+validation,bn,476,False
+validation,fi,528,False
+validation,ja,456,False
+validation,ko,356,True
+validation,ru,396,False
+validation,te,384,True

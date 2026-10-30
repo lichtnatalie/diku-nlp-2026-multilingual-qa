@@ -1,0 +1,26 @@
+{
+  "seed": 20260901,
+  "python_random_algorithm": "random.Random.sample on sorted IDs and strata",
+  "inputs": {
+    "66_week40_validation_predictions.csv": "a12458903336097212c2fbba7d4f80d751e96f3caa07aa6a00368049646e2877",
+    "73_week41_qa_error_sample.csv": "07810eade0242f04b85612ac1cf2e6c3c79af9b813a5c97c0391d12bd5268052",
+    "74_week41_qa_error_taxonomy.csv": "0752ed5a2a3b600ff732070260e0aaafa132ab9a07b3c797f373e02b29a3a3e9",
+    "50_week39_error_taxonomy.csv": "a51bc873883c73b54a937a9324e280bb69ea8c6a3c51659e61e70fb0cb9b23a7",
+    "79_week41_single_seed_judgements.json": "4e7089c69b4795037e428d0dedf79300efb5b316225c6b10abdaac28cd44d1ee"
+  },
+  "examples": 1155,
+  "multiplicity": {
+    "0": 493,
+    "1": 99,
+    "2": 116,
+    "3": 447
+  },
+  "same_type_all_three": 408,
+  "all_three_different_types": 39,
+  "pairs": 19,
+  "single_seed_sample_by_seed": {
+    "20260901": 7,
+    "20260903": 8,
+    "20260902": 4
+  }
+}

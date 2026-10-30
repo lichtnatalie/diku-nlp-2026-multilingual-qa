@@ -1,0 +1,4 @@
+| model                | grouping   | group              |   n_questions |   pooled_perplexity |   median_question_perplexity |   unk_rate |   spearman_perplexity_unk_fraction |   spearman_perplexity_n_words | top5_opening_words   |
+|:---------------------|:-----------|:-------------------|--------------:|--------------------:|-----------------------------:|-----------:|-----------------------------------:|------------------------------:|:---------------------|
+| interpolated trigram | frame      | other opening      |            73 |             33.9288 |                      27.3049 |     0.3319 |                            -0.2986 |                        0.1996 | متي من ما هل كم      |
+| interpolated trigram | frame      | top-5 opening word |           268 |             23.8086 |                      22.2056 |     0.3004 |                            -0.2986 |                        0.1996 | متي من ما هل كم      |

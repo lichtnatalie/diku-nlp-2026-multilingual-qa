@@ -1,0 +1,131 @@
+{
+  "status": "Rechecked and revised by OpenAI Codex against the supplied passages and the shared precedence rule",
+  "review_date": "2026-10-21",
+  "method": "Rechecked all 19 full questions, gold answers, contexts and predictions. Compared overlapping IDs with the classifier taxonomy. Applied questionable-gold-label precedence before question form. Retained ambiguous wording as a secondary note rather than an unresolved verification status.",
+  "judgements": {
+    "validation-002012": {
+      "category": "right type, wrong referent",
+      "question_gloss": "When did Christianity spread?",
+      "note": "The model selects the founding date of Judaism, 7th century BCE, rather than the fourth-century spread of Christianity. The other two seeds return the gold answer.",
+      "secondary": ""
+    },
+    "validation-002121": {
+      "category": "questionable gold label",
+      "question_gloss": "When was the first psychiatric asylum established?",
+      "note": "The passage describes one famous hospital and its admission of mental patients by 1377 (with 1403 as an alternative); it does not establish the first asylum or its founding date. Gold 1377 is therefore not clearly supported for the question as asked. The failing seed selects the later acquisition date.",
+      "secondary": "unsupported first; alternative date in passage"
+    },
+    "validation-001757": {
+      "category": "span boundary",
+      "question_gloss": "What is the largest state of Germany?",
+      "note": "The failing span begins with the gold Bavaria but continues through the smallest state and the area of Germany. It contains the answer with substantial irrelevant material.",
+      "secondary": "excessive span length"
+    },
+    "validation-001249": {
+      "category": "questionable gold label",
+      "question_gloss": "What is Liu Bei's era name?",
+      "note": "Korean 연호 asks for an era name, whereas Xuande is explicitly identified as a courtesy name in the passage. The prediction Liu Bei also fails to answer the question.",
+      "secondary": "question/gold answer type mismatch. Korean 연호 means era name, while the passage says courtesy name."
+    },
+    "validation-000962": {
+      "category": "right type, wrong referent",
+      "question_gloss": "When is John Stuart Mill's birthday?",
+      "note": "The failing seed selects his death date, 8 May 1873, rather than his birth date, 20 May 1806. The other seeds include an opening parenthesis, which SQuAD normalisation removes.",
+      "secondary": ""
+    },
+    "validation-000416": {
+      "category": "questionable gold label",
+      "question_gloss": "What is the largest volcano in Japan?",
+      "note": "The question says Japan, but the passage places the gold Paektu Mountain on the China-North Korea border and describes its height in Korea and Northeast China. Adding its alternate name does not resolve the question-passage mismatch.",
+      "secondary": "span contains gold and alternate name"
+    },
+    "validation-000232": {
+      "category": "answer type mismatch",
+      "question_gloss": "What is water flow measured with?",
+      "note": "The gold names a water flow test, while the prediction names a fire protection system, the intended application rather than the measurement method.",
+      "secondary": ""
+    },
+    "validation-003004": {
+      "category": "span boundary",
+      "question_gloss": "According to the 2011 census, how many houses are in Pedalova village?",
+      "note": "The prediction contains the correct 23 houses but adds the population of 89; both other seeds return 23.",
+      "secondary": "extra population figure"
+    },
+    "validation-002123": {
+      "category": "questionable gold label",
+      "question_gloss": "Where was the US space agency NASA established?",
+      "note": "The passage lists NASA facilities and a railroad at Kennedy Space Center, but does not state where NASA was established. The benchmark rewards an unsupported answer; the abstaining seed has the gold text as its unreturned candidate.",
+      "secondary": "yes/no is not involved; abstention defensible"
+    },
+    "validation-000077": {
+      "category": "questionable gold label",
+      "question_gloss": "On which continent is England located?",
+      "note": "Gold United Kingdom is a country, not a continent. The passage mentions continental Europe but does not make the gold answer valid for this question.",
+      "secondary": "wrong answer type in gold"
+    },
+    "validation-000159": {
+      "category": "questionable gold label",
+      "question_gloss": "As of 1990, which African country had the largest population?",
+      "note": "The passage names Nigeria as most populous in 2017 and gives its 2017 population, but does not establish the requested 1990 ranking. The abstaining seed has Nigeria as its unreturned candidate.",
+      "secondary": "temporal mismatch; abstention defensible"
+    },
+    "validation-001318": {
+      "category": "questionable gold label",
+      "question_gloss": "Are nuclear weapons legal in Malaysia?",
+      "note": "The passage names Malaysia as a treaty member and explicitly states the obligation not to develop, acquire or possess nuclear weapons. An evidence-clause answer is supported, although the benchmark marks the pair unanswerable. This follows the original taxonomy precedence for questionable gold labels.",
+      "secondary": "yes/no question; interpretation is limited to the supplied passage"
+    },
+    "validation-001131": {
+      "category": "questionable gold label",
+      "question_gloss": "Does provisional government mean a temporary government formed after the previous government collapses to resolve anarchy?",
+      "note": "The passage defines a provisional government as an emergency authority managing a political transition after the previous administration collapses. This supports the definition-check question, although the pair is labelled unanswerable. Questionable gold label therefore takes precedence, consistently with this exact example in the classifier taxonomy.",
+      "secondary": "yes/no question. The anarchy-removal purpose is implicit in managing the transition."
+    },
+    "validation-000364": {
+      "category": "questionable gold label",
+      "question_gloss": "Is a time difference related to gravity?",
+      "note": "Read as a time difference in the supplied physics passage, the question asks whether it is related to gravity. The passage describes gravitational time dilation as a difference in proper time at different positions and reports experimental confirmation. That supports an answer, so questionable gold label takes precedence over question form. The returned fragment does not by itself express the gravitational relation.",
+      "secondary": "yes/no question. Korean 시차 can also mean jet lag, but time difference fits this passage."
+    },
+    "validation-000398": {
+      "category": "questionable gold label",
+      "question_gloss": "Is there a possibility of commercialising nuclear fusion?",
+      "note": "The question asks whether commercialisation is possible, not whether commercial fusion already operates. The passage says ITER is intended to pave the way for commercial fusion power and describes a proposed commercial plant, which supports an evidence-clause answer. The unanswerable label is questionable. The prediction ITER alone is still not a sufficient answer.",
+      "secondary": "yes/no question. Plans support possibility, not demonstrated commercial operation."
+    },
+    "validation-002964": {
+      "category": "unrelated passage",
+      "question_gloss": "Who invented the airplane?",
+      "note": "The passage discusses paper airplanes rather than the invention of powered aircraft; the prediction is a definition of a paper airplane.",
+      "secondary": "related word, different object"
+    },
+    "validation-002955": {
+      "category": "topic present, fact missing",
+      "question_gloss": "On average, how many Indians died under British rule?",
+      "note": "The passage lists separate famine and plague death tolls, but gives no average or overall statistic for British rule. The selected 10 million is an individual event toll.",
+      "secondary": ""
+    },
+    "validation-002958": {
+      "category": "topic present, fact missing",
+      "question_gloss": "What is Makhdoom Mohiuddin's birthplace?",
+      "note": "The biographical passage names schools and later places of residence but gives no birthplace. The failing prediction Sufi is a religious tradition, not a place.",
+      "secondary": "answer type mismatch also present"
+    },
+    "validation-002951": {
+      "category": "unrelated passage",
+      "question_gloss": "What is the area of South Africa?",
+      "note": "The passage describes the Southern and Northern Hemispheres, not the country South Africa. The prediction is the Northern Hemisphere water percentage.",
+      "secondary": "answer type mismatch also present"
+    }
+  },
+  "reviewer": "OpenAI Codex",
+  "recheck_summary": {
+    "rows_rechecked": 19,
+    "categories_changed": [
+      "validation-001131",
+      "validation-000398",
+      "validation-000364"
+    ],
+    "other_categories_retained": 16
+  }
+}

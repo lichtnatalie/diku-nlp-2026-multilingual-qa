@@ -1,0 +1,3 @@
+| subset                                   |   n |   n_distinct_questions |   n_answerable |   n_unanswerable |   median_pp_answerable |   median_pp_unanswerable |   auc_unanswerable_from_perplexity |
+|:-----------------------------------------|----:|-----------------------:|---------------:|-----------------:|-----------------------:|-------------------------:|-----------------------------------:|
+| Arabic validation question-context pairs | 415 |                    341 |            363 |               52 |                22.8899 |                  27.1142 |                             0.5483 |

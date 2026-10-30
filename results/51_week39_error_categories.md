@@ -1,0 +1,7 @@
+| category                     |   false negative |   false positive |   total |   ar |   ko |   te |
+|:-----------------------------|-----------------:|-----------------:|--------:|-----:|-----:|-----:|
+| no cross-lingual entity link |                0 |                8 |       8 |    1 |    4 |    3 |
+| unrelated passage            |                6 |                0 |       6 |    2 |    0 |    4 |
+| polar question               |                0 |                1 |       1 |    1 |    0 |    0 |
+| topic present, fact missing  |                3 |                0 |       3 |    0 |    3 |    0 |
+| questionable gold label      |                3 |                3 |       6 |    4 |    1 |    1 |

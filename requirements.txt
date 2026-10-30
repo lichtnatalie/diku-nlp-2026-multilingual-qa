@@ -1,0 +1,9 @@
+# For reported completion versions, use requirements-local.txt (Python 3.12).
+pandas>=2.0
+pyarrow>=14           # required by pd.read_parquet -- the local data path
+datasets>=2.19        # only for the Hub fallback in data.load_raw()
+numpy>=1.24
+scikit-learn==1.7.2
+torch>=2.0            # Week 39 recurrent answerability classifier (CPU is enough)
+tabulate>=0.9
+transformers>=4.40   # Week 40 integrated QA model (XLM-R); the run itself needs a GPU (Colab)

@@ -1,0 +1,4 @@
+| split      |   windows |   answerable |   labelled_in_a_window |   exact_char_match |   wider_than_gold |   unanswerable |   unanswerable_all_cls |
+|:-----------|----------:|-------------:|-----------------------:|-------------------:|------------------:|---------------:|-----------------------:|
+| train      |      6569 |         5972 |                   5972 |               5598 |               374 |            363 |                    363 |
+| validation |      1194 |          991 |                    991 |                941 |                50 |            164 |                    164 |

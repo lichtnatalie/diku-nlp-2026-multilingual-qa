@@ -1,0 +1,25 @@
+example_id,question,answerable,qa_answered
+validation-000364,시차는 중력과 관련이 있는가?,False,0.3333333333333333
+validation-000368,맹장 없이 살 수 있을까?,False,0.0
+validation-000369,무한은 공식이 있을까?,False,1.0
+validation-000398,핵융합은 상용화 가능성이 있는가?,False,0.3333333333333333
+validation-000417,화성의 대기에 인간이 살 수 있는가?,False,0.0
+validation-000451,논증의 오류로 인해 무지에의 호소 오류를 범할수 있는가?,False,0.0
+validation-000487,비볼셰비키는 극좌인가요?,False,0.0
+validation-000491,개혁침례교는 신교와 상관관계가있는가?,False,0.0
+validation-000497,미국은 주마다 법이 다른가?,False,1.0
+validation-000546,화성의 대기에 인간이 살 수 있는가?,False,0.6666666666666666
+validation-000560,시차는 중력과 관련이 있는가?,False,0.6666666666666666
+validation-000646,2019년 현재 페터 베르크만 사건은 해결되었는가?,False,0.6666666666666666
+validation-000681,소아마비 바이러스의 증상은?,True,0.0
+validation-000685,팝핑은 춤의 한 종류인가?,True,1.0
+validation-000777,인도네시아에서는 동성결혼이 합법적인가?,True,0.3333333333333333
+validation-000778,서양이란 아메리카를 뜻하는가 아니면 유럽을 뜻하는가?,True,0.0
+validation-000833,젤라틴은 단백질인가요?,False,0.6666666666666666
+validation-000901,"니콜라 테슬라와 Tesla, Inc.은 관계가 있는가?",False,0.0
+validation-000986,인도네시아에서는 동성결혼이 합법적인가?,True,0.0
+validation-000994,젤라틴은 단백질인가요?,True,1.0
+validation-001022,냉전 기간 동안 미국을 돕는 나라는?,True,0.6666666666666666
+validation-001023,"니콜라 테슬라와 Tesla, Inc.은 관계가 있는가?",False,0.0
+validation-001131,"임시정부는 종전의 정부가 무너진 후, 무정부 상태를 해소하기 위해 임시로 구성된 정부를 말하나요?",False,0.3333333333333333
+validation-001318,말레이시아에서는 핵무기가 합법적인가?,False,0.3333333333333333

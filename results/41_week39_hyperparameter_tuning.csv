@@ -1,0 +1,10 @@
+model,hyperparameter,dev_macro_f1,best_epoch,seconds
+logistic regression,C=0.03,0.7907613035100234,,
+logistic regression,C=0.1,0.7754692480226655,,
+logistic regression,C=0.3,0.7679892141756549,,
+logistic regression,C=1.0,0.7505193319606497,,
+logistic regression,C=3.0,0.7654458009618943,,
+recurrent,"{""hidden_dim"": 64, ""embedding_dim"": 64, ""dropout"": 0.3, ""lr"": 0.001}",0.8219601235607975,5.0,312.86382818222046
+recurrent,"{""hidden_dim"": 32, ""embedding_dim"": 32, ""dropout"": 0.3, ""lr"": 0.001}",0.816833590138675,5.0,161.8473653793335
+recurrent,"{""hidden_dim"": 64, ""embedding_dim"": 64, ""dropout"": 0.5, ""lr"": 0.0005}",0.7809853697704165,5.0,232.4036636352539
+recurrent,"{""hidden_dim"": 32, ""embedding_dim"": 64, ""dropout"": 0.5, ""lr"": 0.001}",0.7963736167479342,5.0,185.6920144557953

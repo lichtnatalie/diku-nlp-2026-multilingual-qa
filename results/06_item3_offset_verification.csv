@@ -1,0 +1,3 @@
+split,n_answerable_checked,n_failures,failure_rate,n_unanswerable,n_unanswerable_violating_convention,n_answers_occurring_more_than_once,ar_checked,ko_checked,te_checked,ar_failures,ko_failures,te_failures
+train,5972,0,0.0,363,363,902,2303,2359,1310,0,0,0
+validation,991,0,0.0,164,164,180,363,337,291,0,0,0

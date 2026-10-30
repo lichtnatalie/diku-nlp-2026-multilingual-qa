@@ -1,0 +1,12 @@
+model,position,target_is_unk,count,mean,share_of_total_bits,share_of_positions
+interpolated trigram,</s>,False,341,1.4979237574941493,,
+interpolated trigram,word 1,False,339,3.4361120682724637,,
+interpolated trigram,word 1,True,2,4.474219129600917,,
+interpolated trigram,word 2,False,281,4.7203693168151295,,
+interpolated trigram,word 2,True,60,2.682269423079785,,
+interpolated trigram,word 3+,False,870,8.2700927562546,,
+interpolated trigram,word 3+,True,598,2.163425335319758,,
+interpolated trigram,</s>,any,341,1.4979237574941493,0.04380475693804912,0.13689281413087115
+interpolated trigram,word 1,any,341,3.4422006727377332,0.10066250905420633,0.13689281413087115
+interpolated trigram,word 2,any,341,4.361759364838236,0.1275537608927634,0.13689281413087115
+interpolated trigram,word 3+,any,1468,5.78249935181384,0.727978973114981,0.5893215576073866

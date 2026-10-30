@@ -1,0 +1,60 @@
+{
+  "timestamp_utc": "2026-09-25T15:12:48+00:00",
+  "python": "3.11.15",
+  "platform": "Linux-6.18.44-fc-v37-x86_64-with-glibc2.39",
+  "processor": "x86_64",
+  "seed": 20260901,
+  "dataset": "coastalcph/tydi_xor_rc",
+  "languages": [
+    "ar",
+    "ko",
+    "te"
+  ],
+  "splits_used": [
+    "train",
+    "validation"
+  ],
+  "numpy_version": "2.4.4",
+  "pandas_version": "3.0.2",
+  "datasets_version": null,
+  "sklearn_version": "1.8.0",
+  "torch_version": "2.14.0+cu130",
+  "transformers_version": null,
+  "git_commit": null,
+  "week": 39,
+  "hardware": {
+    "machine": "x86_64",
+    "processor": "x86_64",
+    "cpu": "Intel(R) Xeon(R) Processor @ 2.80GHz",
+    "cores": 2,
+    "memory_gb": 7.8
+  },
+  "logistic_regression": {
+    "C": 0.03,
+    "n_features": 972,
+    "fit_seconds": 1.380580186843872,
+    "n_train_examples": 6335,
+    "threshold_default": 0.5,
+    "threshold_tuned_on_validation": 0.41752163696230254
+  },
+  "recurrent": {
+    "hidden_dim": 64,
+    "embedding_dim": 64,
+    "dropout": 0.3,
+    "lr": 0.001,
+    "epochs": 5,
+    "max_context_len": 200,
+    "vocabulary": 24606,
+    "seeds": [
+      20260901,
+      20260902,
+      20260903,
+      20260904,
+      20260905
+    ],
+    "mean_train_seconds": 235.44982438087465,
+    "n_train_examples": 5701,
+    "threshold_tuned_on_validation": 0.33721316009759905
+  },
+  "total_run_seconds": 2826.784980773926
+}

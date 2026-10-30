@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-10-21T11:02:22.904178+00:00",
+  "seed": 20260901,
+  "policy": "reconstructed core configurations; thresholds selected on validation only",
+  "challenge_accessed": false,
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:22) [Clang 22.1.3 ]",
+  "platform": "macOS-15.4.1-x86_64-i386-64bit",
+  "torch": "2.2.2",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "files": {
+    "rule.joblib": "5296a4e51e8bae422ab597feb7280564d268e5dc7dc98c13a5234b2e5e9557cd",
+    "rnn.pt": "51d09ef4e1204756b068b9c48785bec446468cc35fdb4c26d2209bc3413cf47f",
+    "rnn_config.json": "3de9bd3b8268120855ab9b7b67acb6073eb3adfc222f0d9ef6be0537b2967346",
+    "span.joblib": "3d602f93a5bdca97bc166c640124db31faacaab2b390e4c53ce9ee759e4293e9",
+    "span_decision.json": "28992f1db152aee4c71dd7e185767fbf243b32e142eb828890d6ebc0cd487d36"
+  }
+}

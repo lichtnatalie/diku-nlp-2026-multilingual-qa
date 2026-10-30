@@ -1,0 +1,9 @@
+category,persistent,one_seed
+polar question,3,0
+unrelated passage,2,2
+"topic present, fact missing",3,2
+questionable gold label,2,10
+predicate paraphrase,0,0
+answer type mismatch,3,1
+"right type, wrong referent",3,2
+span boundary,3,2

@@ -1,0 +1,7 @@
+{
+  "record_metadata_and_gold_rows": 50,
+  "raw_qa_spans_and_scores": 10,
+  "frozen_policies_recomputed": 2,
+  "returned_qa_metrics_recomputed": true,
+  "created_utc": "2026-10-21T12:07:03.950165+00:00"
+}

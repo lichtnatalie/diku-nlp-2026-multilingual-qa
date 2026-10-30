@@ -1,0 +1,47 @@
+[
+  {
+    "pair_id": "01-apollo",
+    "lang": "ar",
+    "answerable_gloss": "When did the Apollo 11 mission launch?",
+    "unanswerable_gloss": "When did the Apollo 11 mission end?",
+    "alteration": "event predicate",
+    "justification": "The passage dates the launch, not the end of the mission. Apollo 11 and the available date remain plausible distractions.",
+    "context_provenance": "Author paraphrase of the linked public source, prepared with OpenAI Codex. Facts checked on 21 October 2026."
+  },
+  {
+    "pair_id": "02-mercury",
+    "lang": "ar",
+    "answerable_gloss": "Which planet is closest to the Sun?",
+    "unanswerable_gloss": "Which planet is farthest from the Sun?",
+    "alteration": "comparative reversal",
+    "justification": "The nearest planet is given. The identity of the farthest planet is absent, even though Mercury is a planet name of the expected answer type.",
+    "context_provenance": "Author paraphrase of the linked public source, prepared with OpenAI Codex. Facts checked on 21 October 2026."
+  },
+  {
+    "pair_id": "03-nobel-first",
+    "lang": "ko",
+    "answerable_gloss": "Who received the first Nobel Prize in Physics?",
+    "unanswerable_gloss": "Who received the second Nobel Prize in Physics?",
+    "alteration": "ordinal change",
+    "justification": "Only the inaugural award and recipient are described. A fluent second-award question has the same topic and answer type but no supported recipient.",
+    "context_provenance": "Author paraphrase of the linked public source, prepared with OpenAI Codex. Facts checked on 21 October 2026."
+  },
+  {
+    "pair_id": "04-nobel-field",
+    "lang": "ko",
+    "answerable_gloss": "Who received the 1911 Nobel Prize in Chemistry?",
+    "unanswerable_gloss": "Who received the 1911 Nobel Prize in Medicine?",
+    "alteration": "award-field change",
+    "justification": "The year and Nobel award remain, but chemistry changes to medicine. The passage says nothing about a medicine laureate.",
+    "context_provenance": "Author paraphrase of the linked public source, prepared with OpenAI Codex. Facts checked on 21 October 2026."
+  },
+  {
+    "pair_id": "05-hubble",
+    "lang": "te",
+    "answerable_gloss": "In which year was the Hubble telescope first launched?",
+    "unanswerable_gloss": "In which year was the Hubble telescope first repaired?",
+    "alteration": "event predicate",
+    "justification": "The passage gives the launch year but no repair year. The same telescope and a plausible-looking year remain in the context.",
+    "context_provenance": "Author paraphrase of the linked public source, prepared with OpenAI Codex. Facts checked on 21 October 2026."
+  }
+]

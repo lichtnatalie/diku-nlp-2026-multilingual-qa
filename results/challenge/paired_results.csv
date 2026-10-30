@@ -1,0 +1,26 @@
+model,pair_id,lang,answerable_correct,unanswerable_correct,both_answerability_correct,answerable_em,unanswerable_em,both_exact,answerable_prediction,unanswerable_prediction
+anchor rule,01-apollo,ar,True,False,False,,,,,
+anchor rule,02-mercury,ar,True,False,False,,,,,
+anchor rule,03-nobel-first,ko,True,False,False,,,,,
+anchor rule,04-nobel-field,ko,True,False,False,,,,,
+anchor rule,05-hubble,te,True,False,False,,,,,
+BiGRU,01-apollo,ar,True,False,False,,,,,
+BiGRU,02-mercury,ar,True,False,False,,,,,
+BiGRU,03-nobel-first,ko,True,False,False,,,,,
+BiGRU,04-nobel-field,ko,True,False,False,,,,,
+BiGRU,05-hubble,te,True,False,False,,,,,
+labeller,01-apollo,ar,True,False,False,0.0,0.0,False,"16, 1969","16, 1969"
+labeller,02-mercury,ar,False,True,False,0.0,1.0,False,,
+labeller,03-nobel-first,ko,True,False,False,0.0,0.0,False,1901,1901
+labeller,04-nobel-field,ko,True,False,False,0.0,0.0,False,Marie,Marie
+labeller,05-hubble,te,False,True,False,0.0,1.0,False,,
+integrated QA,01-apollo,ar,True,False,False,1.0,0.0,False,"July 16, 1969","July 16, 1969"
+integrated QA,02-mercury,ar,True,False,False,1.0,0.0,False,Mercury,Mercury
+integrated QA,03-nobel-first,ko,True,False,False,1.0,0.0,False,Wilhelm Conrad Röntgen,Wilhelm Conrad Röntgen
+integrated QA,04-nobel-field,ko,True,False,False,1.0,0.0,False,Marie Curie,Marie Curie
+integrated QA,05-hubble,te,True,False,False,1.0,0.0,False,1990.,1990.
+language thresholds,01-apollo,ar,True,False,False,1.0,0.0,False,"July 16, 1969","July 16, 1969"
+language thresholds,02-mercury,ar,True,False,False,1.0,0.0,False,Mercury,Mercury
+language thresholds,03-nobel-first,ko,True,False,False,1.0,0.0,False,Wilhelm Conrad Röntgen,Wilhelm Conrad Röntgen
+language thresholds,04-nobel-field,ko,True,False,False,1.0,0.0,False,Marie Curie,Marie Curie
+language thresholds,05-hubble,te,True,False,False,1.0,0.0,False,1990.,1990.

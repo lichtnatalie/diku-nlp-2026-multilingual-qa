@@ -1,0 +1,122 @@
+[
+  {
+    "id": "01-apollo-a",
+    "pair_id": "01-apollo",
+    "created_by": "Charlotte Natalie Licht",
+    "question": "متى انطلقت مهمة Apollo 11؟",
+    "context": "On July 16, 1969, NASA sent Apollo 11 into space from Kennedy Space Center. The crew consisted of Neil Armstrong, Buzz Aldrin and Michael Collins. The mission was intended to put people on the Moon.",
+    "lang": "ar",
+    "answerable": true,
+    "answer_start": 3,
+    "answer": "July 16, 1969",
+    "source_url": "https://www.nasa.gov/mission/apollo-11/"
+  },
+  {
+    "id": "01-apollo-u",
+    "pair_id": "01-apollo",
+    "created_by": "Charlotte Natalie Licht",
+    "question": "متى انتهت مهمة Apollo 11؟",
+    "context": "On July 16, 1969, NASA sent Apollo 11 into space from Kennedy Space Center. The crew consisted of Neil Armstrong, Buzz Aldrin and Michael Collins. The mission was intended to put people on the Moon.",
+    "lang": "ar",
+    "answerable": false,
+    "answer_start": -1,
+    "answer": "",
+    "source_url": "https://www.nasa.gov/mission/apollo-11/"
+  },
+  {
+    "id": "02-mercury-a",
+    "pair_id": "02-mercury",
+    "created_by": "Charlotte Natalie Licht",
+    "question": "ما الكوكب الأقرب إلى الشمس؟",
+    "context": "Among the planets in our solar system, Mercury has the smallest size and orbits closest to the Sun. Mercury is only a little larger than the Moon that orbits Earth.",
+    "lang": "ar",
+    "answerable": true,
+    "answer_start": 39,
+    "answer": "Mercury",
+    "source_url": "https://science.nasa.gov/mercury/facts/"
+  },
+  {
+    "id": "02-mercury-u",
+    "pair_id": "02-mercury",
+    "created_by": "Charlotte Natalie Licht",
+    "question": "ما الكوكب الأبعد عن الشمس؟",
+    "context": "Among the planets in our solar system, Mercury has the smallest size and orbits closest to the Sun. Mercury is only a little larger than the Moon that orbits Earth.",
+    "lang": "ar",
+    "answerable": false,
+    "answer_start": -1,
+    "answer": "",
+    "source_url": "https://science.nasa.gov/mercury/facts/"
+  },
+  {
+    "id": "03-nobel-first-a",
+    "pair_id": "03-nobel-first",
+    "created_by": "Charlotte Natalie Licht",
+    "question": "첫 번째 노벨 물리학상 수상자는 누구인가요?",
+    "context": "In 1901, the inaugural Nobel Prize in Physics went to Wilhelm Conrad Röntgen. The award recognised his discovery of X-rays.",
+    "lang": "ko",
+    "answerable": true,
+    "answer_start": 54,
+    "answer": "Wilhelm Conrad Röntgen",
+    "source_url": "https://www.nobelprize.org/prizes/physics/1901/summary/"
+  },
+  {
+    "id": "03-nobel-first-u",
+    "pair_id": "03-nobel-first",
+    "created_by": "Charlotte Natalie Licht",
+    "question": "두 번째 노벨 물리학상 수상자는 누구인가요?",
+    "context": "In 1901, the inaugural Nobel Prize in Physics went to Wilhelm Conrad Röntgen. The award recognised his discovery of X-rays.",
+    "lang": "ko",
+    "answerable": false,
+    "answer_start": -1,
+    "answer": "",
+    "source_url": "https://www.nobelprize.org/prizes/physics/1901/summary/"
+  },
+  {
+    "id": "04-nobel-field-a",
+    "pair_id": "04-nobel-field",
+    "created_by": "Charlotte Natalie Licht",
+    "question": "1911년 노벨 화학상 수상자는 누구인가요?",
+    "context": "Marie Curie received the chemistry Nobel in 1911 for her investigations of radium and polonium. The prize recognised her contributions to understanding these elements.",
+    "lang": "ko",
+    "answerable": true,
+    "answer_start": 0,
+    "answer": "Marie Curie",
+    "source_url": "https://www.nobelprize.org/prizes/chemistry/1911/summary/"
+  },
+  {
+    "id": "04-nobel-field-u",
+    "pair_id": "04-nobel-field",
+    "created_by": "Charlotte Natalie Licht",
+    "question": "1911년 노벨 의학상 수상자는 누구인가요?",
+    "context": "Marie Curie received the chemistry Nobel in 1911 for her investigations of radium and polonium. The prize recognised her contributions to understanding these elements.",
+    "lang": "ko",
+    "answerable": false,
+    "answer_start": -1,
+    "answer": "",
+    "source_url": "https://www.nobelprize.org/prizes/chemistry/1911/summary/"
+  },
+  {
+    "id": "05-hubble-a",
+    "pair_id": "05-hubble",
+    "created_by": "Charlotte Natalie Licht",
+    "question": "హబుల్ టెలిస్కోప్‌ను మొదటిసారి ఏ సంవత్సరంలో ప్రయోగించారు?",
+    "context": "The space shuttle Discovery carried the Hubble Space Telescope into space in 1990. This observatory takes its name from astronomer Edwin Hubble.",
+    "lang": "te",
+    "answerable": true,
+    "answer_start": 77,
+    "answer": "1990",
+    "source_url": "https://science.nasa.gov/mission/hubble/overview/about-hubble/"
+  },
+  {
+    "id": "05-hubble-u",
+    "pair_id": "05-hubble",
+    "created_by": "Charlotte Natalie Licht",
+    "question": "హబుల్ టెలిస్కోప్‌ను మొదటిసారి ఏ సంవత్సరంలో మరమ్మతు చేశారు?",
+    "context": "The space shuttle Discovery carried the Hubble Space Telescope into space in 1990. This observatory takes its name from astronomer Edwin Hubble.",
+    "lang": "te",
+    "answerable": false,
+    "answer_start": -1,
+    "answer": "",
+    "source_url": "https://science.nasa.gov/mission/hubble/overview/about-hubble/"
+  }
+]

@@ -1,0 +1,41 @@
+model,subset,gold_subset,n,class_precision,class_recall,class_f1,squad_em,squad_f1,character_em,bio_token_f1,token_tp,token_fp,token_fn
+anchor rule,overall,answerable,5,0.5,1.0,0.6666666666666666,,,,,,,
+anchor rule,overall,unanswerable,5,0.0,0.0,0.0,,,,,,,
+anchor rule,ar,answerable,2,0.5,1.0,0.6666666666666666,,,,,,,
+anchor rule,ar,unanswerable,2,0.0,0.0,0.0,,,,,,,
+anchor rule,ko,answerable,2,0.5,1.0,0.6666666666666666,,,,,,,
+anchor rule,ko,unanswerable,2,0.0,0.0,0.0,,,,,,,
+anchor rule,te,answerable,1,0.5,1.0,0.6666666666666666,,,,,,,
+anchor rule,te,unanswerable,1,0.0,0.0,0.0,,,,,,,
+BiGRU,overall,answerable,5,0.5,1.0,0.6666666666666666,,,,,,,
+BiGRU,overall,unanswerable,5,0.0,0.0,0.0,,,,,,,
+BiGRU,ar,answerable,2,0.5,1.0,0.6666666666666666,,,,,,,
+BiGRU,ar,unanswerable,2,0.0,0.0,0.0,,,,,,,
+BiGRU,ko,answerable,2,0.5,1.0,0.6666666666666666,,,,,,,
+BiGRU,ko,unanswerable,2,0.0,0.0,0.0,,,,,,,
+BiGRU,te,answerable,1,0.5,1.0,0.6666666666666666,,,,,,,
+BiGRU,te,unanswerable,1,0.0,0.0,0.0,,,,,,,
+labeller,overall,answerable,5,0.5,0.6,0.5454545454545454,0.0,0.29333333333333333,0.0,0.5000000000000001,4.0,1.0,7.0
+labeller,overall,unanswerable,5,0.5,0.4,0.4444444444444445,0.4,0.4,0.4,0.0,0.0,5.0,0.0
+labeller,ar,answerable,2,0.5,0.5,0.5,0.0,0.4,0.0,0.7499999999999999,3.0,0.0,2.0
+labeller,ar,unanswerable,2,0.5,0.5,0.5,0.5,0.5,0.5,0.0,0.0,3.0,0.0
+labeller,ko,answerable,2,0.5,1.0,0.6666666666666666,0.0,0.3333333333333333,0.0,0.28571428571428575,1.0,1.0,4.0
+labeller,ko,unanswerable,2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0
+labeller,te,answerable,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+labeller,te,unanswerable,1,0.5,1.0,0.6666666666666666,1.0,1.0,1.0,0.0,0.0,0.0,0.0
+integrated QA,overall,answerable,5,0.5,1.0,0.6666666666666666,1.0,1.0,,,,,
+integrated QA,overall,unanswerable,5,0.0,0.0,0.0,0.0,0.0,,,,,
+integrated QA,ar,answerable,2,0.5,1.0,0.6666666666666666,1.0,1.0,,,,,
+integrated QA,ar,unanswerable,2,0.0,0.0,0.0,0.0,0.0,,,,,
+integrated QA,ko,answerable,2,0.5,1.0,0.6666666666666666,1.0,1.0,,,,,
+integrated QA,ko,unanswerable,2,0.0,0.0,0.0,0.0,0.0,,,,,
+integrated QA,te,answerable,1,0.5,1.0,0.6666666666666666,1.0,1.0,,,,,
+integrated QA,te,unanswerable,1,0.0,0.0,0.0,0.0,0.0,,,,,
+language thresholds,overall,answerable,5,0.5,1.0,0.6666666666666666,1.0,1.0,,,,,
+language thresholds,overall,unanswerable,5,0.0,0.0,0.0,0.0,0.0,,,,,
+language thresholds,ar,answerable,2,0.5,1.0,0.6666666666666666,1.0,1.0,,,,,
+language thresholds,ar,unanswerable,2,0.0,0.0,0.0,0.0,0.0,,,,,
+language thresholds,ko,answerable,2,0.5,1.0,0.6666666666666666,1.0,1.0,,,,,
+language thresholds,ko,unanswerable,2,0.0,0.0,0.0,0.0,0.0,,,,,
+language thresholds,te,answerable,1,0.5,1.0,0.6666666666666666,1.0,1.0,,,,,
+language thresholds,te,unanswerable,1,0.0,0.0,0.0,0.0,0.0,,,,,

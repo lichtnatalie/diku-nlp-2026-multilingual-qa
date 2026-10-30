@@ -1,0 +1,44 @@
+{
+  "qa_score_min": -16.344810962677002,
+  "qa_score_max": -13.321104049682615,
+  "frozen_cutoff_min": -3.3245344310998917,
+  "frozen_cutoff_max": 2.3766981661319733,
+  "paired_scores": [
+    {
+      "pair_id": "01-apollo",
+      "answerable_score": -15.041660904884338,
+      "unanswerable_score": -14.497340381145476,
+      "unanswerable_minus_answerable": 0.5443205237388629
+    },
+    {
+      "pair_id": "02-mercury",
+      "answerable_score": -15.939010977745056,
+      "unanswerable_score": -15.15724551677704,
+      "unanswerable_minus_answerable": 0.7817654609680158
+    },
+    {
+      "pair_id": "03-nobel-first",
+      "answerable_score": -15.481051057577131,
+      "unanswerable_score": -15.219104126095772,
+      "unanswerable_minus_answerable": 0.2619469314813596
+    },
+    {
+      "pair_id": "04-nobel-field",
+      "answerable_score": -16.237763285636902,
+      "unanswerable_score": -16.344810962677002,
+      "unanswerable_minus_answerable": -0.1070476770401001
+    },
+    {
+      "pair_id": "05-hubble",
+      "answerable_score": -13.976664185523989,
+      "unanswerable_score": -13.321104049682615,
+      "unanswerable_minus_answerable": 0.6555601358413732
+    }
+  ],
+  "pairs_with_higher_unanswerable_score": 4,
+  "maximum_absolute_within_pair_gap": 0.7817654609680158,
+  "one_cutoff_perfectly_separates_all_records": false,
+  "bigru_minimum_answerable_probability": 0.921945095062256,
+  "thresholds_selected": false,
+  "predictions_changed": false
+}

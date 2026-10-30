@@ -1,0 +1,9 @@
+# Temporary computer and Python files
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+~$*
+# Submitted data, models and results are intentionally included.

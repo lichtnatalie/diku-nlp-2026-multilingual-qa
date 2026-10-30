@@ -1,0 +1,16 @@
+lang,rank,token,count,share_of_tokens,n_questions_containing,english_translation,translation_verified
+ar,1,في,593,0.036600419701271446,574,in,True
+ar,2,من,587,0.036230095049993825,566,who / from,True
+ar,3,متى,536,0.03308233551413406,536,when,True
+ar,4,ما,443,0.027342303419330947,442,what,True
+ar,5,هو,350,0.021602271324527834,350,he / it (masc.),True
+ko,1,가장,527,0.04442383882660372,527,most / -est (superlative marker),True
+ko,2,무엇인가,497,0.0418949675461519,497,what is (it)?  [interrogative 'what' + copula + question ending],True
+ko,3,언제,336,0.02832335834106044,336,when,True
+ko,4,몇,234,0.019725195987524233,234,how many,True
+ko,5,어디인가,228,0.01921942173143387,228,where is (it)?  [interrogative 'where' + copula + question ending],True
+te,1,ఎవరు,274,0.03563068920676203,273,who,True
+te,2,ఏది,192,0.024967490247074123,192,which one / which,True
+te,3,ఎన్ని,165,0.021456436931079324,165,how many,True
+te,4,ఎప్పుడు,154,0.020026007802340703,154,when,True
+te,5,ఏ,144,0.01872561768530559,144,which,True

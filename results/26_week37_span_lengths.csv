@@ -1,0 +1,15 @@
+split,model,n_gold_spans,mean_gold_length,n_predicted_spans,mean_predicted_length,median_predicted_length
+train,empty-span baseline,5972,3.820830542531815,0,0.0,0.0
+train,lexical-overlap span baseline,5972,3.820830542531815,126,1.1666666666666667,1.0
+train,labeller (independent argmax),5972,3.820830542531815,5996,1.3752501667778518,1.0
+train,labeller (constrained greedy),5972,3.820830542531815,5929,1.517962556923596,1.0
+train,labeller (constrained beam 4),5972,3.820830542531815,5942,2.081790642881185,1.0
+train,ablation: no question features (beam 4),5972,3.820830542531815,5929,1.6235452858829482,1.0
+train,labeller (beam 4 + abstention),5972,3.820830542531815,4519,2.3972117725160436,1.0
+validation,empty-span baseline,991,3.65489404641776,0,0.0,0.0
+validation,lexical-overlap span baseline,991,3.65489404641776,30,1.2,1.0
+validation,labeller (independent argmax),991,3.65489404641776,1017,1.2133726647000984,1.0
+validation,labeller (constrained greedy),991,3.65489404641776,996,1.319277108433735,1.0
+validation,labeller (constrained beam 4),991,3.65489404641776,999,1.7577577577577577,1.0
+validation,ablation: no question features (beam 4),991,3.65489404641776,1060,1.5594339622641509,1.0
+validation,labeller (beam 4 + abstention),991,3.65489404641776,693,2.0707070707070705,1.0

@@ -1,0 +1,45 @@
+{
+  "timestamp_utc": "2026-09-11T10:11:10+00:00",
+  "python": "3.10.12",
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.35",
+  "processor": "x86_64",
+  "seed": 20260901,
+  "dataset": "coastalcph/tydi_xor_rc",
+  "languages": [
+    "ar",
+    "ko",
+    "te"
+  ],
+  "splits_used": [
+    "train",
+    "validation"
+  ],
+  "numpy_version": "2.2.6",
+  "pandas_version": "2.3.3",
+  "datasets_version": null,
+  "sklearn_version": "1.7.2",
+  "torch_version": null,
+  "transformers_version": null,
+  "git_commit": "06450c8",
+  "tokeniser": "unicode_word",
+  "data_provenance": {
+    "source": "local parquet",
+    "files": {
+      "train": {
+        "path": "/sessions/rcw-01l53upmuasfxmeeqmum4kay/mnt/diku-nlp-project/data/train.parquet",
+        "bytes": 6883173,
+        "sha256_16": "3de446f771bed236"
+      },
+      "validation": {
+        "path": "/sessions/rcw-01l53upmuasfxmeeqmum4kay/mnt/diku-nlp-project/data/validation.parquet",
+        "bytes": 1378691,
+        "sha256_16": "2277ce64ffbd9529"
+      },
+      "test": {
+        "path": "/sessions/rcw-01l53upmuasfxmeeqmum4kay/mnt/diku-nlp-project/data/test.parquet",
+        "bytes": 4805,
+        "sha256_16": "845058e0c3827a9a"
+      }
+    }
+  }
+}

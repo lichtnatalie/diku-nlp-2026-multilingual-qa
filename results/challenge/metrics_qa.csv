@@ -1,0 +1,9 @@
+model,subset,exact_match,f1,has_ans_exact_match,has_ans_f1,no_ans_exact_match,n,answerable_support,answerable_predicted,answerable_precision,answerable_recall,answerable_f1,unanswerable_support,unanswerable_predicted,unanswerable_precision,unanswerable_recall,unanswerable_f1,macro_f1,accuracy
+integrated QA,overall,0.5,0.5,1.0,1.0,0.0,10,5,10,0.5,1.0,0.6666666666666666,5,0,0.0,0.0,0.0,0.3333333333333333,0.5
+integrated QA,ar,0.5,0.5,1.0,1.0,0.0,4,2,4,0.5,1.0,0.6666666666666666,2,0,0.0,0.0,0.0,0.3333333333333333,0.5
+integrated QA,ko,0.5,0.5,1.0,1.0,0.0,4,2,4,0.5,1.0,0.6666666666666666,2,0,0.0,0.0,0.0,0.3333333333333333,0.5
+integrated QA,te,0.5,0.5,1.0,1.0,0.0,2,1,2,0.5,1.0,0.6666666666666666,1,0,0.0,0.0,0.0,0.3333333333333333,0.5
+language thresholds,overall,0.5,0.5,1.0,1.0,0.0,10,5,10,0.5,1.0,0.6666666666666666,5,0,0.0,0.0,0.0,0.3333333333333333,0.5
+language thresholds,ar,0.5,0.5,1.0,1.0,0.0,4,2,4,0.5,1.0,0.6666666666666666,2,0,0.0,0.0,0.0,0.3333333333333333,0.5
+language thresholds,ko,0.5,0.5,1.0,1.0,0.0,4,2,4,0.5,1.0,0.6666666666666666,2,0,0.0,0.0,0.0,0.3333333333333333,0.5
+language thresholds,te,0.5,0.5,1.0,1.0,0.0,2,1,2,0.5,1.0,0.6666666666666666,1,0,0.0,0.0,0.0,0.3333333333333333,0.5

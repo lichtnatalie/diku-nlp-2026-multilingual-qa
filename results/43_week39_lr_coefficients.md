@@ -1,0 +1,26 @@
+| feature        |   weight | pushes_towards   |
+|:---------------|---------:|:-----------------|
+| q:هل           |  -3.3660 | unanswerable     |
+| q:수            |  -0.8368 | unanswerable     |
+| q:있는가          |  -0.7299 | unanswerable     |
+| q:ఏ            |  -0.7059 | unanswerable     |
+| q:있을까          |  -0.6404 | unanswerable     |
+| q:దేశం         |  -0.6125 | unanswerable     |
+| q:అతిపెద్ద     |  -0.4630 | unanswerable     |
+| q:ముఖ్యమంత్రి  |  -0.4183 | unanswerable     |
+| q:రాష్ట్రంలోని |  -0.3984 | unanswerable     |
+| q:దేశంలో       |  -0.3450 | unanswerable     |
+| q:하나요          |  -0.3403 | unanswerable     |
+| q:يمكن         |  -0.3135 | unanswerable     |
+| q:ఎక్కడ        |   0.3645 | answerable       |
+| q:هي           |   0.3657 | answerable       |
+| q:أول          |   0.3703 | answerable       |
+| q:몇            |   0.4347 | answerable       |
+| q:ఎన్ని        |   0.4563 | answerable       |
+| q:어디인가         |   0.4606 | answerable       |
+| q:كم           |   0.5310 | answerable       |
+| q:무엇인가         |   0.5721 | answerable       |
+| q:ما           |   0.7035 | answerable       |
+| q:언제           |   0.7205 | answerable       |
+| q:가장           |   0.7854 | answerable       |
+| q:متى          |   1.0650 | answerable       |

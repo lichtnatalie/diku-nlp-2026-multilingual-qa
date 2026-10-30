@@ -1,0 +1,24 @@
+{
+  "seed": 20260901,
+  "threshold": -0.32994150063539424,
+  "selected_on": "validation exact character-span match",
+  "validation": {
+    "n": 1155,
+    "n_answerable": 991,
+    "n_unanswerable": 164,
+    "n_predicted_span": 693,
+    "token_tp": 413,
+    "token_fp": 1022,
+    "token_fn": 3209,
+    "token_precision": 0.28780487804878047,
+    "token_recall": 0.11402540033130867,
+    "token_f1": 0.16333794739964408,
+    "n_right_text_wrong_offset": 5,
+    "exact_match": 0.22597402597402597,
+    "exact_match_text": 0.23030303030303031,
+    "exact_match_answerable": 0.13723511604439959,
+    "exact_match_unanswerable": 0.7621951219512195
+  },
+  "train_seconds": 79.7712675119983,
+  "n_train": 6335
+}

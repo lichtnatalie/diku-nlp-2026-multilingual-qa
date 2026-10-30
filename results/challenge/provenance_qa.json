@@ -1,0 +1,98 @@
+{
+  "created_utc": "2026-10-21T12:01:26.795506+00:00",
+  "seed": 20260901,
+  "status": "QA checkpoint only; merge with CPU results",
+  "challenge_sha256": "4c4d9c07180b9c2f26ba0ed0d54fca9d4df60259753f9f059a0f4290f5bd2bfb",
+  "extension_policies_sha256": "1063d702898ccd7235e838d1089ef1cf346c040ec297097fab5a9275955e4be9",
+  "model_names": [
+    "integrated QA",
+    "language thresholds"
+  ],
+  "threshold_tuning_performed": false,
+  "qa_checkpoint": "/content/week40_xlmr_seed20260901_original",
+  "qa_saved_decision_rule": {
+    "no_answer_score": "null score - best span score; HIGH = no answer",
+    "answer_iff": "no_answer_score < threshold",
+    "threshold": -0.13682891055941582,
+    "seed": 20260901,
+    "config": {
+      "model_name": "FacebookAI/xlm-roberta-base",
+      "max_length": 384,
+      "stride": 128,
+      "max_question_tokens": 64,
+      "max_answer_tokens": 30,
+      "n_best": 20,
+      "learning_rate": 3e-05,
+      "weight_decay": 0.01,
+      "warmup_ratio": 0.1,
+      "epochs": 3,
+      "batch_size": 16,
+      "eval_batch_size": 64,
+      "max_grad_norm": 1.0,
+      "seed": 20260901,
+      "fp16": true,
+      "threshold_objective": "macro_f1"
+    }
+  },
+  "qa_checkpoint_recovery": {
+    "recovered_utc": "2026-10-21T12:00:40.483600+00:00",
+    "source_day": "2026-10-01",
+    "files": {
+      "decision_rule.json": {
+        "file_id": "1wQIHbv0l5_0EJiMG3V7bVm4GCQeICaA6",
+        "revision_id": "0B0zd5PJQSn2DUitFQkZBMWpPaS9MSUpHYjVPSE1Ea1FGNVhBPQ",
+        "id": "0B0zd5PJQSn2DUitFQkZBMWpPaS9MSUpHYjVPSE1Ea1FGNVhBPQ",
+        "mimeType": "application/json",
+        "modifiedTime": "2026-10-01T21:36:28.293Z",
+        "keepForever": true,
+        "md5Checksum": "4a58912bebc8df19cb98e92e96ba2c2d",
+        "size": "614",
+        "sha256": "b1f726971369395c46b3885f1941dd1b7bdebb9a26035537b60d87d0a0e95ab4"
+      },
+      "config.json": {
+        "file_id": "1mVaX4atsZIugXMM-lT1YvnjzVXolrAZJ",
+        "revision_id": "0B0zd5PJQSn2DV1BQVVJ0b2lTZ1RHQjBxZ2dlVHY5UUNWVGE0PQ",
+        "id": "0B0zd5PJQSn2DV1BQVVJ0b2lTZ1RHQjBxZ2dlVHY5UUNWVGE0PQ",
+        "mimeType": "application/json",
+        "modifiedTime": "2026-10-01T21:36:21.549Z",
+        "keepForever": true,
+        "md5Checksum": "8adc033a452f8f85a23147e6aba7c08d",
+        "size": "757",
+        "sha256": "611714a8b4afad985a8b64a1b16e0d1aa24db1d96799cafb9b75df7fdad49ff4"
+      },
+      "tokenizer_config.json": {
+        "file_id": "1cv4h3PbhO66OBJcQ8YzX2mjM_ghTTxK9",
+        "revision_id": "0B0zd5PJQSn2DcC9EdlQ3TDhkSFNRVWVwNXdXME5UMUszd05jPQ",
+        "id": "0B0zd5PJQSn2DcC9EdlQ3TDhkSFNRVWVwNXdXME5UMUszd05jPQ",
+        "mimeType": "application/json",
+        "modifiedTime": "2026-10-01T21:36:28.177Z",
+        "keepForever": true,
+        "md5Checksum": "aa7b666b4ed608ddeac3b11ab97e9df9",
+        "size": "343",
+        "sha256": "5d84c938d902dbd684af806ccc920e4c99812d897b0f271eebf856361a4337f6"
+      },
+      "model.safetensors": {
+        "file_id": "1xl-B6PoYuq615N8Cru0cPUsHwtW0jAV1",
+        "revision_id": "0B0zd5PJQSn2DM21VUGdLWURqV2lBNzRaeGFaVDRubmN4engwPQ",
+        "id": "0B0zd5PJQSn2DM21VUGdLWURqV2lBNzRaeGFaVDRubmN4engwPQ",
+        "mimeType": "application/octet-stream",
+        "modifiedTime": "2026-10-01T21:36:27.755Z",
+        "keepForever": true,
+        "md5Checksum": "f80a807eb8022ab346dec1fe86aed63b",
+        "size": "1109842416",
+        "sha256": "d6a7e8f8c518e9e64ea1e217e2ce050ae44cf08a2443baa56883083e414334f4"
+      },
+      "tokenizer.json": {
+        "file_id": "1nGdJpHYhzvrVcDagMC-2TKAJlxoiWo5A",
+        "id": "1nGdJpHYhzvrVcDagMC-2TKAJlxoiWo5A",
+        "mimeType": "application/json",
+        "modifiedTime": "2026-10-01T21:36:28.242Z",
+        "md5Checksum": "b2f50e084be3adef16146bf4e59c027c",
+        "size": "17098349",
+        "sha256": "4b9b05044d24462584275061db02daa8bc91e3457a3917350e6a4bdbff6e3de7"
+      }
+    },
+    "saved_threshold_unchanged": true,
+    "training_performed": false
+  }
+}

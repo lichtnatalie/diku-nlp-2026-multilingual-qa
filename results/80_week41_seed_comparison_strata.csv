@@ -1,0 +1,12 @@
+error_type,lang,geometry,original_available,single_available,matched_per_group
+wrong span,ar,disjoint,2,12,2
+wrong span,ar,overlap,1,14,1
+wrong span,ko,disjoint,2,11,2
+wrong span,ko,overlap,1,12,1
+wrong span,te,disjoint,1,17,1
+wrong span,te,overlap,1,10,1
+wrongly abstains,ar,,3,1,1
+wrongly abstains,ko,,3,0,0
+wrongly abstains,te,,2,3,2
+wrongly answers,ko,,4,4,4
+wrongly answers,te,,4,15,4

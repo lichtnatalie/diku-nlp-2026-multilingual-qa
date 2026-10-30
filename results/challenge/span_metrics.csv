@@ -1,0 +1,5 @@
+model,subset,n,n_answerable,n_unanswerable,n_predicted_span,token_tp,token_fp,token_fn,token_precision,token_recall,token_f1,n_right_text_wrong_offset,exact_match,exact_match_text,exact_match_answerable,exact_match_unanswerable
+labeller,overall,10,5,5,6,4,6,7,0.4,0.36363636363636365,0.380952380952381,0,0.2,0.2,0.0,0.4
+labeller,ar,4,2,2,2,3,3,2,0.5,0.6,0.5454545454545454,0,0.25,0.25,0.0,0.5
+labeller,ko,4,2,2,4,1,3,4,0.25,0.2,0.22222222222222224,0,0.0,0.0,0.0,0.0
+labeller,te,2,1,1,0,0,0,1,0.0,0.0,0.0,0,0.5,0.5,0.0,1.0

@@ -1,0 +1,23 @@
+|     seed | error_type       | span_relation      |   ar |   ko |   te |
+|---------:|:-----------------|:-------------------|-----:|-----:|-----:|
+| 20260901 | correct          |                    |  238 |  191 |  185 |
+| 20260901 | wrong span       | disjoint           |  103 |   85 |   75 |
+| 20260901 | wrong span       | gold contains pred |   20 |   18 |   31 |
+| 20260901 | wrong span       | partial overlap    |    3 |    4 |    0 |
+| 20260901 | wrong span       | pred contains gold |   39 |   45 |   33 |
+| 20260901 | wrongly abstains |                    |   10 |    6 |    7 |
+| 20260901 | wrongly answers  |                    |    2 |    7 |   53 |
+| 20260902 | correct          |                    |  234 |  194 |  173 |
+| 20260902 | wrong span       | disjoint           |  115 |   89 |   69 |
+| 20260902 | wrong span       | gold contains pred |   22 |   15 |   27 |
+| 20260902 | wrong span       | partial overlap    |    2 |    4 |    1 |
+| 20260902 | wrong span       | pred contains gold |   30 |   35 |   33 |
+| 20260902 | wrongly abstains |                    |   10 |   10 |   13 |
+| 20260902 | wrongly answers  |                    |    2 |    9 |   68 |
+| 20260903 | correct          |                    |  234 |  179 |  165 |
+| 20260903 | wrong span       | disjoint           |  104 |   97 |   70 |
+| 20260903 | wrong span       | gold contains pred |   18 |   15 |   29 |
+| 20260903 | wrong span       | partial overlap    |    0 |    3 |    1 |
+| 20260903 | wrong span       | pred contains gold |   38 |   43 |   36 |
+| 20260903 | wrongly abstains |                    |   21 |   11 |   11 |
+| 20260903 | wrongly answers  |                    |    0 |    8 |   72 |

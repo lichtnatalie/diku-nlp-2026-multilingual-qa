@@ -1,0 +1,3 @@
+model,grouping,group,n_questions,pooled_perplexity,median_question_perplexity,unk_rate,spearman_perplexity_unk_fraction,spearman_perplexity_n_words,top5_opening_words
+interpolated trigram,frame,other opening,73,33.92879482272245,27.304949025216285,0.33185840707964603,-0.2985986075498662,0.19957133502503946,متي من ما هل كم
+interpolated trigram,frame,top-5 opening word,268,23.8085624537891,22.205591121717116,0.3003533568904594,-0.2985986075498662,0.19957133502503946,متي من ما هل كم
