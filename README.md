@@ -12,8 +12,6 @@ Run the following commands from this folder (`src/`).
 - `challenge.json`, `challenge_notes.json`, `CHALLENGE.md`: paired challenge records, glosses and source evidence.
 - `EXTENSION-PROTOCOL.md`: hypothesis and procedure decieded before the extension.
 
-The final PDF is the report. Submitted AI transcripts are in `../genai-logs/`.
-
 ## Setup and checks
 
 ```bash
